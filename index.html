@@ -1,171 +1,144 @@
 <!DOCTYPE html>
 <html lang="es">
- <head>
- <meta charset="UTF-8">
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <meta name="viewport" content="width=device-width, initialscale=1.0">
- <title>e-commerce</title>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initialscale=1.0">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!-- Mis estilos -->
+    <link>
+    <title>e-commerce</title>
 </head>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
 <body>
-<nav class="">
-<a class="" href="#">e-commerce</a>
-<button class="" type="button" data-toggle="collapse" datatarget="#navbarSupportedContent" ariacontrols="navbarSupportedContent" aria-expanded="false" arialabel="Toggle navigation">
-<span class=""></span>
-</button>
-<div class="" id="navbarSupportedContent">
-<ul class="">
-<li class="">
-<a class="" href="#">Inicio</a>
-</li>
-<li class="">
-<a class="" href="#">Productos</a>
-</li>
-<li class="">
-<a class="" href="#">Sobre nosotros</a>
-</li>
-<li class="">
-<a class="" href="#">Contacto</a>
-</li>
-</ul>
-<form class="">
-<button class="" type="submit"><i class="fas fashopping-basket text-light"></i></button>
-</form>
-</div>
-</nav>
-<div class="">
-<h2 class="">Artículos de ciclismo</h2>
-</div>
-<div class="">
-<div class="">
-<div class="">
-<div class="">
-<img
-src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Bicyc
-le_Helmet_0085.jpg/1200px-Bicycle_Helmet_0085.jpg" class=""
-alt="...">
-<div class="">
-<h5 class="">Casco</h5>
-<p class="">Casco especial para ciclistas de 
-ciudad.</p>
-</div>
-<ul class="">
-    <li class="">3 unidades disponibles</li>
- <li class="">$30.000</li>
- </ul>
-<div class="">
- <a href="#" class="">Comprar ahora</a>
- <a href="#" class="">Agregar a carrito</a>
- </div>
- </div>
- </div>
- <div class="">
- <div class="">
- <img
-src="https://upload.wikimedia.org/wikipedia/commons/6/6f/White_leath
-er_fingerless_cycling_glove_cropped.jpg" class="guates" alt="...">
- <div class="">
- <h5 class="">Guantes</h5>
- <p class="">Guantes con relleno de 
-silicona.<br><br></p>
- </div>
-<ul class="">
- <li class="">10 unidades disponibles</li>
- <li class="">$9.500</li>
- </ul>
-<div class="">
- <a href="#" class="">Comprar ahora</a>
- <a href="#" class="">Agregar a carrito</a>
- </div>
- </div>
- </div>
- <div class="">
- <div class="">
- <img src="https://falabella.scene7.com/is/image/FalabellaPE/18263895_1" class="led" alt="...">
- <div class="">
- <h5 class="">Luces LED</h5>
- <p class="">Luces rojas de alta 
-intensidad.<br><br></p>
- </div>
-<ul class="">
- <li class="">8 unidades disponibles</li>
- <li class="">$12.000</li>
- </ul>
-<div class="">
- <a href="#" class="">Comprar ahora</a>
- <a href="#" class="">Agregar a carrito</a>
- </div>
- </div>
- </div>
- </div>
- <div class="">
-    <div class="">
-    <div class="">
-    <img
-   src="https://ae01.alicdn.com/kf/HTB1PxwOX0jvK1RjSspiq6AEqXXaI/Botella-de-agua-para-bicicleta-de-monta-a-termo-deportivo-para-mantener-el-calor-750ml.jpg" class="botella"
-   alt="...">
-    <div class="">
-    <h5 class="">Botella</h5>
-    <p class="">Botella de 500mL, especial para 
-   llevar agua a tus aventuras.</p>
+    <nav class="navbar navbar-expand-lg bg-warning">
+        <a class="text-muted text-decoration-none text-light " href="#">e-commerce</a>
+        <ul class="nav col-md-4 justify-content-end text-light">
+            <li class="nav-item text-light"><a href="#" class="nav-link px-2 text-muted ">inicio</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">productos</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">sobre nosotros</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">contacto</a></li>
+        </ul>
+        </div>
+    </nav>
+
+    <h2 class="text-center">Artículos de ciclismo</h2>
+
+
+
+    <div class="card" style="width: 18rem;">
+        <img src="casco.jpg" class="card-img-top">
+        <div class="card-body">
+            <h5 class="card-title">Casco</h5>
+            <p class="card-text">casco especial para ciclistas de cuidad.</p>
+        </div>
+          <p class="text-center ">3 unidades disponibles</p>
+          <p class="text-center">$30,000</p>
+
+        <div class="card-body">
+            <a href="#" class="card-link">comprar ahora</a>
+            <a href="#" class="card-link">agregar carrito</a>
+        </div>
     </div>
-   <ul class="">
-    <li class="">18 unidades disponibles</li>
-    <li class="">$3.000</li>
-    </ul>
-   <div class="">
-    <a href="#" class="">Comprar ahora</a>
-    <a href="#" class="">Agregar a carrito</a>
+
+    <div class="card" style="width: 18rem;">
+        <img src="guate.jpg" class="card-img-top">
+        <div class="card-body">
+            <h5 class="card-title">Guantes</h5>
+            <p class="card-text text-center">Guantes con rellenos de silicona</p>
+            <p class="text-center">10 unidades disponibles</p>
+            <p class="text-center">$9.500</p>
+        </div>
+        <div class="card-body">
+            <a href="#" class="card-link">comprar ahora</a>
+            <a href="#" class="card-link">agregar carrito</a>
+        </div>
     </div>
+
+   
+    
+    <div class="card" style="width: 18rem;">
+        <img src="led.jpg" class="card-img-top">
+        <div class="card-body">
+            <h5 class="card-title">luces LED</h5>
+            <p class="card-text text-center">luces rojas de alta intencidad.</p>
+            <p class="text-center">8 unidades disponibles</p>
+            <p class="text-center">$12.000</p>
+        </div>
+        <div class="card-body">
+            <a href="#" class="card-link">comprar ahora</a>
+            <a href="#" class="card-link">agregar carrito</a>
+        </div>
     </div>
+
+
+    <div class="card" style="width: 18rem;">
+        <img src="porta-botella.jpg" class="card-img-top">
+        <div class="card-body">
+            <h5 class="card-title">Botella</h5>
+            <p class="card-text text-center">Botella de 500mL,especial para llevar agua a tus aventuras</p>
+            <p class="text-center">18 unidades disponibles</p>
+            <p class="text-center">$3.000</p>
+        </div>
+        <div class="card-body">
+            <a href="#" class="card-link">comprar ahora</a>
+            <a href="#" class="card-link">agregar carrito</a>
+        </div>
     </div>
-    <div class="">
-    <div class="">
-    <img
-   src="https://wiki.ead.pucv.cl/images/thumb/f/f5/Camaravalvula1.jpg/250px-Camaravalvula1.jpg" class="camara" alt="...">
-    <div class="">
-    <h5 class="">Cámara aro 27.5</h5>
-    <p class="">Cámara para bicicleta aro 27.5 con 
-   válvula francesa.<br></p>
+
+    
+    
+    <div class="card" style="width: 18rem;">
+        <img src="camara.jpg" class="card-img-top">
+        <div class="card-body">
+            <h5 class="card-title">Camara de aro 29,5</h5>
+            <p class="card-text text-center">camara para bicicleta aro 29,5 con valvula francesa</p>
+            <p class="text-center">64 unidades disponibles</p>
+            <p class="text-center">$4,500</p>
+        </div>
+        <div class="card-body">
+            <a href="#" class="card-link">comprar ahora</a>
+            <a href="#" class="card-link">agregar carrito</a>
+        </div>
     </div>
-   <ul class="">
-    <li class="">64 unidades disponibles</li>
-    <li class="">$4.500</li>
-    </ul>
-   <div class="">
-    <a href="#" class="">Comprar ahora</a>
-    <a href="#" class="">Agregar a carrito</a>
+     
+
+    
+    <div class="card" style="width: 18rem;">
+        <img src="chaleco.jpg" class="card-img-top">
+        <div class="card-body">
+            <h5 class="card-title">chaleco reflectante</h5>
+            <p class="card-text text-center">chaleco reflectante talla unica adulto</p>
+            <p class="text-center">8 unidades disponibles</p>
+            <p class="text-center">$5,000</p>
+        </div>
+        <div class="card-body">
+            <a href="#" class="card-link">comprar ahora</a>
+            <a href="#" class="card-link">agregar carrito</a>
+        </div>
     </div>
-    </div>
-    </div>
-    <div class="">
-    <div class="">
-    <img src="https://www.waterfire.es/public/gestion_documental/web/img/productes/W3025_1.jpg" class="chaleco"
-   alt="...">
-    <div class="">
-    <h5 class="">Chaleco reflectante</h5<p class="">Chaleco reflectante talla única 
-        adulto.<br><br></p>
-         </div>
-        <ul class="">
-         <li class="">8 unidades disponibles</li>
-         <li class="">$5.000</li>
-         </ul>
-        <div class="">
-         <a href="#" class="">Comprar ahora</a>
-         <a href="#" class="">Agregar a carrito</a>
-         </div>
-         </div>
-         </div>
-         </div>
-         </div>
-         <footer class="">
-         <div class="">
-         <span class="">Todos los derechos reservados, 
-        2021.</span>
-         </div>
-         </footer>
-         <script src="https://kit.fontawesome.com/1e5e9d0d87.js"
+
+        
+        
+    <footer class="card-footer bg-warning">
+        <div class="card-title text-light">
+            <span class="">Todos los derechos reservados,
+                2021.</span>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/1e5e9d0d87.js" crossorigin="anonymous"></script>
+
+    <!-- Boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
-         </body>
-        </html>
+</body>
+
+</html>
